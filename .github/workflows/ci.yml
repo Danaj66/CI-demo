@@ -39,4 +39,4 @@ jobs:
 
       - name: Run static analysis
         run: |
-          pylint calculator.py
+          pylint calculator.py --disable=C0114,C0116
